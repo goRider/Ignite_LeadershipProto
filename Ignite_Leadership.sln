@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ignite_Leadership", "Ignite_Leadership\Ignite_Leadership.csproj", "{F7BB15E5-8B0F-4846-90E3-9C6C687E68CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7BB15E5-8B0F-4846-90E3-9C6C687E68CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BB15E5-8B0F-4846-90E3-9C6C687E68CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BB15E5-8B0F-4846-90E3-9C6C687E68CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BB15E5-8B0F-4846-90E3-9C6C687E68CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB9DD187-7CAC-4337-B770-85112B858DC0}
+	EndGlobalSection
+EndGlobal

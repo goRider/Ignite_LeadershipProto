@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Devart (www.devart.com), SQL document design file -->
+<!-- Modifying this generated file will probably render it invalid -->
+<Document>
+  <Properties>
+    <Type>SQL Document Design</Type>
+    <DatabaseProvider>aa8afe9c-7d62-4564-b477-c12e62e0f440</DatabaseProvider>
+    <ProviderVersion>5.8.107.0</ProviderVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+  </Properties>
+  <Connection Name="IgniteLeadership.DESKTOP-U64RJVE\SQLEXPRESS">
+    <Category>00000000-0000-0000-0000-000000000000</Category>
+    <ConnectionString>Data Source=DESKTOP-U64RJVE\SQLEXPRESS;Encrypt=False;Initial Catalog=IgniteLeadership;Integrated Security=True;User ID=DESKTOP-U64RJVE\George</ConnectionString>
+    <Database>infr_common</Database>
+  </Connection>
+  <Views ShowAdditionalViews="False" IsLayoutActiveAttribute="True" MainViewAttribute="Code" MainViewScale="50">
+    <View Name="Design" Visible="False" />
+    <View Name="Code" Active="True" Visible="True">
+      <Data />
+    </View>
+    <View Name="Data" Visible="False" />
+    <View Name="Profiler" Visible="True">
+      <Data>
+        <ProfilerHistory>
+          <ProfilerResult Date="2020-02-19 18:32:39Z" DisplayName="" Duration="0">
+            <SQL>USE FakeIgn;
+
+CREATE TABLE ign.MGTSEmployee(
+MgtsemployeeCode INT IDENTITY,
+LawsonCompanyCode CHAR(4) NULL,
+LawsonEmployeeCode
+
+);</SQL>
+            <Properties>
+              <PropertiesRow>
+                <Name>ConnectionString</Name>
+                <Value>Data Source=DESKTOP-U64RJVE\SQLEXPRESS;Encrypt=False;Initial Catalog=IgniteLeadership;Integrated Security=True;User ID=DESKTOP-U64RJVE\George</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>ServerVersion</Name>
+                <Value>15.00.2000</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>Execution Time -&gt; CPU</Name>
+                <Value>0</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>Execution Time -&gt; Elapsed</Name>
+                <Value>0</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>Parse and Compile Time -&gt; CPU</Name>
+                <Value>0</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>Parse and Compile Time -&gt; Elapsed</Name>
+                <Value>0</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>ProfilingResultTime</Name>
+                <Value>6:32:39 PM 2/19/2020</Value>
+              </PropertiesRow>
+            </Properties>
+            <WaitStats />
+            <Elements />
+          </ProfilerResult>
+        </ProfilerHistory>
+      </Data>
+    </View>
+    <View Name="PivotGrid" Visible="False" />
+  </Views>
+  <ProfilingMode Enabled="False" />
+  <LiveProfilingMode Enabled="False" />
+</Document>
